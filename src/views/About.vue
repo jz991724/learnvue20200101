@@ -1,7 +1,11 @@
 <template>
   <div class="about">
     <h1>这就是一个Demo</h1>
-    <hellow-vue @test="getChildrenVal" :count="aboutcount" v-model="msg"></hellow-vue>
+    <hellow-vue @test="getChildrenVal" :count="aboutcount" v-model="msg">
+     <div slot="testSlot">
+       你是我的小呀小苹果
+     </div>
+    </hellow-vue>
     <div>
       {{msg}}
     </div>

@@ -9,6 +9,7 @@
             组件： {{modelTest}}
         </div>
         <input :value="modelTest" @change="$emit('testModel',$event.target.value)">
+        <slot name="testSlot"></slot>
     </div>
 </template>
 
