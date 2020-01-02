@@ -1,5 +1,6 @@
 <template>
     <div>
+        <a-button type="danger">提交</a-button>
     </div>
 </template>
 
